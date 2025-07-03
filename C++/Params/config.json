@@ -1,12 +1,10 @@
-
 {
   "n_sqp": 2,
   "n_reset": 5,
-  "sqp_mixing" : 0.8,
-  "n_sim": 241,
-  "Ts": 0.05,
+  "sqp_mixing": 0.8,
+  "n_sim": 23,
+  "Ts": 1.0,
   "v0": 0.2,
-  
   "model_path": "Params/model.json",
   "cost_path": "Params/cost.json",
   "bounds_path": "Params/bounds.json",

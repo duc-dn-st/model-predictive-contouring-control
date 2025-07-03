@@ -91,8 +91,8 @@ void Plotting::plotRun(const std::list<MPCReturn> &log, const TrackPos &track_xy
 
     plt::figure(1);
     plt::plot(plot_xc,plot_yc,"r--");
-    plt::plot(plot_xi,plot_yi,"k-");
-    plt::plot(plot_xo,plot_yo,"k-");
+    // plt::plot(plot_xi,plot_yi,"k-");
+    // plt::plot(plot_xo,plot_yo,"k-");
     plt::plot(plot_x,plot_y,"b-");
     plt::axis("equal");
     plt::xlabel("X [m]");
